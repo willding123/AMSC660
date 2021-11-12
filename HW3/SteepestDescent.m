@@ -1,4 +1,4 @@
-function [x,fa, normg,err, f, iter,X] = SP(x,g,fun,xtrue)
+function [x,fa, normg,err, f, iter,X] = SteepestDescent(x,g,fun,xtrue)
 
 tol = 1e-5; 
 itermax =1e5; 
